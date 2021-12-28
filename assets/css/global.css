@@ -780,6 +780,7 @@ a:hover.tp-button.lightgrey {
 	/* Animation center compensation - margins should be symmetric */
 	/* remove if not needed */
 	margin-left: .2em;
+	margin-top: 1em;
 	/* you can be more comfortable with increased icons size */
 	/* font-size: 120%; */
 	/* Uncomment for 3D effect */
@@ -15766,6 +15767,76 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 .header-transparent #Top_bar.is-sticky .menu>li>a span:not(.description) {
 	line-height: 60px;
 }
+
+
+.header-transparent #Header .top_bar_left {
+    width: 100% !important;
+}
+
+.header-transparent #Header .top_bar_left,.header-transparent #Header .top_bar_right {
+    background-color: transparent;
+}
+
+.header-transparent #Header .top_bar_left .menu_wrapper {
+    width: 100%;
+}
+
+.header-transparent #Header .top_bar_left .menu_left {
+    float: left;
+    width: 38%;
+    text-align: center;
+	margin-top: 1.5em;
+}
+
+.header-transparent #Header .top_bar_left .menu_right {
+    float: right;
+    width: 38%;
+    text-align: center;
+	margin-top: 1.5em;
+}
+
+.header-transparent #Header .top_bar_left .menu > li {
+    display: inline-block;
+    float: none;
+}
+
+.header-transparent #Header .top_bar_left .logo {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1240px) {
+    .header-transparent #Header .top_bar_left .logo {
+        position: absolute;
+        left: 38%;
+        width: 24%;
+    }
+}
+
+.header-transparent #Top_bar .top_bar_right {
+    position: absolute;
+    top: 0;
+    right: -28px;
+    padding: 0;
+}
+
+.header-transparent #Top_bar a.action_button,.header-transparent #Top_bar a#header_cart,.header-transparent #Top_bar .wpml-languages {
+    display: none;
+}
+
+.header-transparent #Top_bar .top_bar_right:before {
+    display: none;
+}
+
+
+.header-transparent #Action_bar {
+    position: static;
+    background-color: #2C2C2C;
+}
+
+
+
 /* Buttons | Stroke ------------------------------------------------------------------ */
 
 .button-stroke a.button:not(.action_button), .button-stroke:not(.header-plain) a.button.action_button, .button-stroke a.tp-button, .button-stroke button, .button-stroke input[type="submit"], .button-stroke input[type="reset"], .button-stroke input[type="button"] {

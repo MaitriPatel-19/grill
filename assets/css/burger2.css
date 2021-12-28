@@ -822,7 +822,7 @@ html {
 		width: 100%;
 		left: 0;
 		top: -60px;
-		height: 60px;
+		height: 100px;
 		z-index: 701;
 		background: #fff;
 		opacity: .97;
@@ -872,7 +872,7 @@ html {
 	}
 	#Top_bar.is-sticky #logo img.logo-sticky {
 		display: inline;
-		max-height: 50px;
+		max-height: 80px;
 	}
 	#Top_bar.is-sticky .menu_wrapper {
 		clear: none
@@ -2211,7 +2211,8 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 		padding-bottom: 20px;
 	}
 	#Top_bar .top_bar_left {
-		margin-top: 0px;
+		margin-top: -14px;
+		margin-bottom: 7px;
 	}
 }
 /* ------------------------------------------- *
