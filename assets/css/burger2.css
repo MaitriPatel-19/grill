@@ -1381,13 +1381,13 @@ a.action_button {
 	border-color: #170f0b;
 }
 #Side_slide, #Side_slide .search-wrapper input.field, #Side_slide a:not(.action_button), #Side_slide #menu ul li.submenu .menu-toggle {
-	color: #9c9998;
+	color: #FFFFFF;
 }
 #Side_slide a:not(.action_button):hover, #Side_slide a.active, #Side_slide #menu ul li.hover>.menu-toggle {
 	color: #FFFFFF;
 }
 #Side_slide #menu ul li.current-menu-item>a, #Side_slide #menu ul li.current_page_item>a, #Side_slide #menu ul li.current-menu-parent>a, #Side_slide #menu ul li.current-page-parent>a, #Side_slide #menu ul li.current-menu-ancestor>a, #Side_slide #menu ul li.current-page-ancestor>a, #Side_slide #menu ul li.current_page_ancestor>a, #Side_slide #menu ul li.hover>a, #Side_slide #menu ul li:hover>a {
-	color: #FFFFFF;
+	color: #FF8C00;
 }
 #Action_bar .contact_details {
 	color: #bbbbbb
