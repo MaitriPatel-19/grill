@@ -1346,7 +1346,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 
 #Top_bar #logo img {
     vertical-align: middle;
-    max-height: 148%;
+    max-height: 150% !important;
 }
 
 #Top_bar #logo img.logo-sticky {
@@ -7261,7 +7261,7 @@ body {
 
     /* Content block */
     .content_slider,.content_slider.flat {
-        padding: 0 65px 32px;
+        padding: 0 0px 32px;
     }
 
     .content_slider a.slider_prev,.content_slider.flat a.slider_prev {

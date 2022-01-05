@@ -75,6 +75,9 @@
                                         </ul>
                                         <ul id="menu-menu-right" class="menu menu-main menu_right">
                                             <li>
+                                                <a href="branch.html"><span>Branch</span></a>
+                                            </li>
+                                            <li>
                                                 <a href="company.html"><span>About Us</span></a>
                                             </li>
                                             <li class="current-menu-item">
@@ -226,7 +229,7 @@
                                                 </h3>
                                                 <hr class="no_line" style="margin:0 auto 15px">
                                                 <div id="contactWrapper">
-                                                    <form id="contactform">
+                                                    <form id="contactform"  method="post" action="contact.php">
                                                         <!-- One Second (1/2) Column -->
                                                         <div class="column one-second">
                                                             <input placeholder="Your name" type="text" name="name"
@@ -249,8 +252,8 @@
                                                                 aria-invalid="false"></textarea>
                                                         </div>
                                                         <div class="column one">
-                                                            <input type="button" value="Send A Message" id="submit"
-                                                                onClick="return check_values();">
+                                                            <button class="button button_size_2 button_js" type="submit"><span
+                                                                class="button_label">Send A Message</span></button>
                                                         </div>
                                                     </form>
                                                 </div>
@@ -291,6 +294,7 @@
                                                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.7573461030534!2d72.92059091443363!3d22.5507608394562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4f2415bbe8fd%3A0x36671f38bf37bd9d!2sGrill%20Kitchen%20Ultimate%20BBQ%20VVN!5e0!3m2!1sen!2sin!4v1640772898195!5m2!1sen!2sin"
                                                             width="100%" height="550px" style="border:0;"
                                                             allowfullscreen="" loading="lazy"></iframe>
+                                                          
                                                     </div>
                                                 </div>
                                             </div>
@@ -308,69 +312,97 @@
         </div>
     </div>
     <footer id="Footer" class="clearfix">
-        <div class="widgets_wrapper" style="padding:10px 0 20px">
-            <div class="container">
-                <div class="column two-fifth">
-                    <aside class="widget_text widget widget_custom_html">
-                        <div class="textwidget custom-html-widget">
-                            <h4> Localization</h4>
-                            <p>
-                                2nd Floor, Kamalraj Complex,
-                                <br> opp. B&B Polytechnic College,
-                                <br> Iskon Road,
-                                <br><a>Vallabh Vidyanagar,</a>
-                                <br> Anand, Gujarat 388120
-                            </p>
-                        </div>
-                    </aside>
-                </div>
-                <div class="column two-fifth">
-                    <aside class="widget widget_text ">
-                        <div class="textwidget">
-                            <h4>Locations</h4>
-                            <!-- <hr class="no_line" style="margin:0 auto 10px"> -->
-                            <a>Vadodara</a>
-                            <p style="font-size: small;">1st Floor, The Nilkanth,
-                                <br>Near Tulsidham Char Rasta,
-                                <br> Manjalpur, +91 87992 43710
-                                <br>
-                                <br> 3rd floor, C.C. Patel Square,
-                                <br> Behind Trident Complex,
-                                <br> Ellora Park Main Road, +91 78029 16220
+            <div class="widgets_wrapper" style="padding:10px 0 20px">
+                <div class="container">
+                    <div class="column two-fifth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <div class="textwidget custom-html-widget">
+                                <div style="margin-right: 10%;">
+                                    <h4> About Us</h4>
+                                    <p style=" color: white; text-align: justify;">
+                                        " We are a sizzling Barbeque style and a multi
+                                        cuisine restaurant that offers wide variety of
+                                        food in a buffet style that will leave you
+                                        grilling with flavors. "
+                                        <!-- 2nd Floor, Kamalraj Complex,   
+                                    <br> opp. B&B Polytechnic College,
+                                    <br> Iskon Road, 
+                                    <br><a>Vallabh Vidyanagar,</a> 
+                                    <br> Anand, Gujarat 388120 -->
+                                    </p>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column two-fifth">
+                        <aside class="widget widget_text ">
+                            <div class="textwidget">
+                                <h4>Locations</h4>
+                                <!-- <hr class="no_line" style="margin:0 auto 10px"> -->
+                                <ul>
+                                    <!-- <li>
+                                        <a href="https://goo.gl/maps/TgMA7KZXb621pWMx7" target="_blank">Ahmedabad,
+                                            Motera</a> &nbsp;
+                                        <a style="color: white;">COMING SOON...</a>
+                                    </li> -->
+                                    <li>
+                                        <a href="https://g.page/Grill-Kitchen-BBQ-Ahmedabad?share" target="_blank">Ahmedabad,
+                                            Thaltej
+                                        </a> &nbsp; <a href="tel:+91-93163-98181"> (+91 93163 9818)</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://goo.gl/maps/TgMA7KZXb621pWMx7" target="_blank">Anand, Vallabh
+                                            Vidyanagar </a> &nbsp; <a href="tel:+91-63597-04704"> (+91 63597 04704)</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://goo.gl/maps/EMeyHyhsfZsoh5cF7" target="_blank">Vadodara, Ellora
+                                            Park </a> &nbsp; <a href="tel:+91-78029-16220">(+91 78029 16220)</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://goo.gl/maps/viJDBQEp2cbSBDYR8" target="_blank">Vadodara,
+                                            Manjalpur </a> &nbsp; <a href="tel:+91-87992-43710">(+91 87992 43710)</a>
+                                    </li>
+                                    
 
-                            </p>
-                        </div>
-                    </aside>
-                </div>
-                <div class="column one-fifth">
-                    <aside class="widget_text widget widget_custom_html">
-                        <div class="textwidget custom-html-widget">
-                            <h4>Contact us</h4>
-                            <!-- <hr class="no_line" style="margin:0 auto 10px"> -->
-                            <!-- <p>
+
+
+                                </ul>
+                                <!-- <p style="font-size: small;">1st Floor, The Nilkanth, 
+                                    <br>Near Tulsidham Char Rasta,
+                                    <br> Manjalpur, +91 87992 43710  
+                                    <br> 
+                                    <br> 3rd floor, C.C. Patel Square, 
+                                    <br> Behind Trident Complex,
+                                    <br> Ellora Park Main Road, +91 78029 16220
+
+                                </p> -->
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fifth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <div class="textwidget custom-html-widget">
+                                <h4>Contact us</h4>
+                                <!-- <hr class="no_line" style="margin:0 auto 10px"> -->
+                                <!-- <p>
                                     Nullam viverra consectetuer
                                     <br> quisque cursus et, porttitor risus.
                                 </p> -->
-                            <p>
-                                <a href="tel:+91-63597-04704">+91 63597 04704</a>
-                                <br>
+                                <!-- <h4>Find us here</h4> -->
+                                <!-- <hr class="no_line" style="margin:0 auto 10px"> -->
                                 <a href="#">noreply@envato.com</a>
-                            </p>
-                            <hr class="no_line" style="margin:0 auto 30px">
-                            <h4>Find us here</h4>
-                            <!-- <hr class="no_line" style="margin:0 auto 10px"> -->
-                            <p style="font-size: 20px;">
-                                <a href="https://www.facebook.com/grillkitchenvvn" target="_blank"><i
-                                        class="icon-facebook"></i></a>
-                                <a href="https://www.instagram.com/grillkitchenvvn" target="_blank"><i
-                                        class="icon-instagram"></i></a>
-                                <!-- <a href="#"><i class="icon-twitter"></i></a> -->
-                                <a href="#"><i class="icon-linkedin"></i></a>
-                            </p>
-                        </div>
-                    </aside>
-                </div>
-                <!-- <div class="column one-fourth">
+                                <p style="font-size: 20px;">
+                                    <a href="https://www.facebook.com/grillkitchenvvn" target="_blank"><i
+                                            class="icon-facebook"></i></a>
+                                    <a href="https://www.instagram.com/grillkitchenvvn" target="_blank"><i
+                                            class="icon-instagram"></i></a>
+                                    <!-- <a href="#"><i class="icon-twitter"></i></a> -->
+                                    <a href="#"><i class="icon-linkedin"></i></a>
+                                </p>
+                            </div>
+                        </aside>
+                    </div>
+                    <!-- <div class="column one-fourth">
                         <aside class="widget_text widget widget_custom_html">
                             <div class="textwidget custom-html-widget">
                                 <h4>Find us here</h4>
@@ -384,19 +416,20 @@
                             </div>
                         </aside>
                     </div> -->
-            </div>
-            <div class="footer_copy">
-                <div class="container">
-                    <div class="column one">
-                        <a id="back_to_top" class="button button_js" href="#"><i class="icon-up-open-big"></i></a>
-                        <div class="copyright">
-                            &copy;
-                            2021 Developed by <a target="_blank" rel="nofollow" href="https://keryar.com/">Keryar</a>
+                </div>
+                <div class="footer_copy">
+                    <div class="container">
+                        <div class="column one">
+                            <a id="back_to_top" class="button button_js" href="#"><i class="icon-up-open-big"></i></a>
+                            <div class="copyright">
+                                &copy;
+                                2021 Developed by <a target="_blank" rel="nofollow"
+                                    href="https://keryar.com/">Keryar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-    </footer>
+        </footer>
     </div>
 
     <!-- side menu-->

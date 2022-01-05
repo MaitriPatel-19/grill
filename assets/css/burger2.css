@@ -872,7 +872,7 @@ html {
 	}
 	#Top_bar.is-sticky #logo img.logo-sticky {
 		display: inline;
-		max-height: 80px;
+		max-height: 80px !important;
 	}
 	#Top_bar.is-sticky .menu_wrapper {
 		clear: none
@@ -2192,6 +2192,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 @media only screen and (max-width: 767px) {
 	.mobile-header-mini #Top_bar .container {
 		width: 100%!important;
+		height: 90px !important;
 	}
 	.section_wrapper, .container, .four.columns .widget-area {
 		width: calc(100% - 67px)!important;
@@ -2200,6 +2201,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 		margin: 0;
 		width: 100%!important;
 		clear: both;
+		/* height: 300px !important; */
 	}
 	.mobile-sticky #Top_bar.is-sticky {
 		position: fixed !important;
