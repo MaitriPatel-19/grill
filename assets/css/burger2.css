@@ -1174,9 +1174,11 @@ body, ul.timeline_items, .icon_box a .desc, .icon_box a:hover .desc, .feature_li
 }
 a {
 	color: #0095eb;
+
 }
 a:hover {
-	color: #007cc3;
+	/* color: #3f4244; */
+	color: white;
 }
 *::-moz-selection {
 	background-color: #0095eb;

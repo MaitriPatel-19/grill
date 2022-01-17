@@ -1161,7 +1161,7 @@ jQuery(document).ready(function() {
 	/* ---------------------------------------------------------------------------
 	 * WP Gallery
 	 * --------------------------------------------------------------------------- */
-	jQuery('.gallery-icon > a').wrap('<div class="image_frame scale-with-grid"><div class="image_wrapper"></div></div>').prepend('<div class="mask"></div>').attr('rel', 'prettyphoto[gallery]').attr('data-rel', 'prettyphoto[gallery]').children('img').css('height', 'auto').css('width', '100%');
+	jQuery('.gallery-icon > a').wrap('<div class="image_frame scale-with-grid"><div class="image_wrapper"></div></div>').attr('rel', 'prettyphoto[gallery]').attr('data-rel', 'prettyphoto[gallery]').children('img').css('height', 'auto').css('width', '100%');
 	
 	/* ---------------------------------------------------------------------------
 	 * PrettyPhoto
