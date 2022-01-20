@@ -6657,8 +6657,7 @@ body {
     }
 
     #Top_bar .logo #logo img {
-        /* height: 140% !important; */
-        height: auto !important;
+        height: 140% !important;
     }
 
     #Top_bar .search_wrapper {

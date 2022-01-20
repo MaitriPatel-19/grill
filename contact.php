@@ -21,7 +21,7 @@
   
    
    
-   mail($mailForm,"Thank you very much . ",$body,"From:noreply@patelelec.eu")
+   mail($mailForm,"Thank you very much . ",$body,"From:noreply@grillkitchen.com")
 
 ?>
 

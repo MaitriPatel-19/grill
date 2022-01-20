@@ -1174,11 +1174,9 @@ body, ul.timeline_items, .icon_box a .desc, .icon_box a:hover .desc, .feature_li
 }
 a {
 	color: #0095eb;
-
 }
 a:hover {
-	/* color: #3f4244; */
-	color: white;
+	color: #007cc3;
 }
 *::-moz-selection {
 	background-color: #0095eb;
@@ -2194,7 +2192,6 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 @media only screen and (max-width: 767px) {
 	.mobile-header-mini #Top_bar .container {
 		width: 100%!important;
-		height: 90px !important;
 	}
 	.section_wrapper, .container, .four.columns .widget-area {
 		width: calc(100% - 67px)!important;
@@ -2203,7 +2200,6 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 		margin: 0;
 		width: 100%!important;
 		clear: both;
-		/* height: 300px !important; */
 	}
 	.mobile-sticky #Top_bar.is-sticky {
 		position: fixed !important;
