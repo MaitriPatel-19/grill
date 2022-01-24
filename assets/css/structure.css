@@ -57,7 +57,8 @@ body:not(.template-slider) #Content {
 }
 
 .section_wrapper,.container {
-    width: 1200px;
+    /* width: 1200px; */
+    width: 1377px;
     margin: 0 auto;
     position: relative;
 }
@@ -6657,7 +6658,8 @@ body {
     }
 
     #Top_bar .logo #logo img {
-        height: 140% !important;
+        /* height: 140% !important; */
+        height: auto !important;
     }
 
     #Top_bar .search_wrapper {

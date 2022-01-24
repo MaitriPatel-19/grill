@@ -102,10 +102,11 @@ h6 {
 }
 p {
 	margin: 0 0 15px;
+	line-height: 1.5 !important;
 }
-em, i {
+/* em, i {
 	font-style: italic;
-}
+} */
 b, strong {
 	font-weight: 700;
 }
