@@ -872,7 +872,7 @@ html {
 	}
 	#Top_bar.is-sticky #logo img.logo-sticky {
 		display: inline;
-		max-height: 80px !important;
+		max-height: 90px !important;
 	}
 	#Top_bar.is-sticky .menu_wrapper {
 		clear: none
@@ -1164,7 +1164,7 @@ body, ul.timeline_items, .icon_box a .desc, .icon_box a:hover .desc, .feature_li
 	fill: #532f17;
 }
 .themecolor, .opening_hours .opening_hours_wrapper li span, .fancy_heading_icon .icon_top, .fancy_heading_arrows .icon-right-dir, .fancy_heading_arrows .icon-left-dir, .fancy_heading_line .title, .button-love a.mfn-love, .format-link .post-title .icon-link, .pager-single>span, .pager-single a:hover, .widget_meta ul, .widget_pages ul, .widget_rss ul, .widget_mfn_recent_comments ul li:after, .widget_archive ul, .widget_recent_comments ul li:after, .widget_nav_menu ul, .woocommerce ul.products li.product .price, .shop_slider .shop_slider_ul li .item_wrapper .price, .woocommerce-page ul.products li.product .price, .widget_price_filter .price_label .from, .widget_price_filter .price_label .to, .woocommerce ul.product_list_widget li .quantity .amount, .woocommerce .product div.entry-summary .price, .woocommerce .star-rating span, #Error_404 .error_pic i, .style-simple #Filters .filters_wrapper ul li a:hover, .style-simple #Filters .filters_wrapper ul li.current-cat a, .style-simple .quick_fact .title {
-	color: #FF8C00;
+	color: #28b4a9;
 }
 .themebg, #comments .commentlist>li .reply a.comment-reply-link, #Filters .filters_wrapper ul li a:hover, #Filters .filters_wrapper ul li.current-cat a, .fixed-nav .arrow, .offer_thumb .slider_pagination a:before, .offer_thumb .slider_pagination a.selected:after, .pager .pages a:hover, .pager .pages a.active, .pager .pages span.page-numbers.current, .pager-single span:after, .portfolio_group.exposure .portfolio-item .desc-inner .line, .Recent_posts ul li .desc:after, .Recent_posts ul li .photo .c, .slider_pagination a.selected, .slider_pagination .slick-active a, .slider_pagination a.selected:after, .slider_pagination .slick-active a:after, .testimonials_slider .slider_images, .testimonials_slider .slider_images a:after, .testimonials_slider .slider_images:before, #Top_bar a#header_cart span, .widget_categories ul, .widget_mfn_menu ul li a:hover, .widget_mfn_menu ul li.current-menu-item:not(.current-menu-ancestor)>a, .widget_mfn_menu ul li.current_page_item:not(.current_page_ancestor)>a, .widget_product_categories ul, .widget_recent_entries ul li:after, .woocommerce-account table.my_account_orders .order-number a, .woocommerce-MyAccount-navigation ul li.is-active a, .style-simple .accordion .question:after, .style-simple .faq .question:after, .style-simple .icon_box .desc_wrapper .title:before, .style-simple #Filters .filters_wrapper ul li a:after, .style-simple .article_box .desc_wrapper p:after, .style-simple .sliding_box .desc_wrapper:after, .style-simple .trailer_box:hover .desc, .tp-bullets.simplebullets.round .bullet.selected, .tp-bullets.simplebullets.round .bullet.selected:after, .tparrows.default, .tp-bullets.tp-thumbs .bullet.selected:after {
 	background-color: #4ea121;
@@ -1223,7 +1223,7 @@ a.button, a.tp-button {
 	color: #fff;
 }
 a.button_theme, a.tp-button.button_theme, button, input[type="submit"], input[type="reset"], input[type="button"] {
-	background-color: #4ea121;
+	background-color: #28b4a9;
 	color: #ffffff;
 }
 .button-stroke a.button.button_theme, .button-stroke a.button.button_theme .button_icon i, .button-stroke a.tp-button.button_theme, .button-stroke button, .button-stroke input[type="submit"], .button-stroke input[type="reset"], .button-stroke input[type="button"] {
@@ -1320,7 +1320,7 @@ a.action_button {
 	color: white;
 }
 #Top_bar .menu>li.current-menu-item>a, #Top_bar .menu>li.current_page_item>a, #Top_bar .menu>li.current-menu-parent>a, #Top_bar .menu>li.current-page-parent>a, #Top_bar .menu>li.current-menu-ancestor>a, #Top_bar .menu>li.current-page-ancestor>a, #Top_bar .menu>li.current_page_ancestor>a, #Top_bar .menu>li.hover>a {
-	color: #FF8C00;
+	color: #28b4a9;
 }
 #Top_bar .menu>li a:after {
 	background: #ffffff;
@@ -1351,10 +1351,10 @@ a.action_button {
 	background-color: #F2F2F2;
 }
 #Top_bar .menu>li ul li a {
-	color: #5f5f5f;
+	color: #32736d;
 }
 #Top_bar .menu>li ul li a:hover, #Top_bar .menu>li ul li.hover>a {
-	color: #2e2e2e;
+	color: #28b4a9;
 }
 #Top_bar .search_wrapper {
 	background: #0095eb;
@@ -1373,7 +1373,7 @@ a.action_button {
 	color: #B1DCFB;
 }
 #Top_bar .responsive-menu-toggle, #Header_creative .creative-menu-toggle, #Header_creative .responsive-menu-toggle {
-	color:	#FF8C00;
+	color:	#28b4a9;
 	background: transparent;
 }
 #Side_slide {
@@ -1387,7 +1387,7 @@ a.action_button {
 	color: #FFFFFF;
 }
 #Side_slide #menu ul li.current-menu-item>a, #Side_slide #menu ul li.current_page_item>a, #Side_slide #menu ul li.current-menu-parent>a, #Side_slide #menu ul li.current-page-parent>a, #Side_slide #menu ul li.current-menu-ancestor>a, #Side_slide #menu ul li.current-page-ancestor>a, #Side_slide #menu ul li.current_page_ancestor>a, #Side_slide #menu ul li.hover>a, #Side_slide #menu ul li:hover>a {
-	color: #FF8C00;
+	color: #28b4a9;
 }
 #Action_bar .contact_details {
 	color: #bbbbbb
@@ -1414,10 +1414,10 @@ a.action_button {
 	color: #6c6662;
 }
 #Footer a {
-	color: #FF8C00;
+	color: #28b4a9;
 }
 #Footer a:hover {
-	color: #FF8C00;
+	color: #28b4a9;
 }
 #Footer h1, #Footer h1 a, #Footer h1 a:hover, #Footer h2, #Footer h2 a, #Footer h2 a:hover, #Footer h3, #Footer h3 a, #Footer h3 a:hover, #Footer h4, #Footer h4 a, #Footer h4 a:hover, #Footer h5, #Footer h5 a, #Footer h5 a:hover, #Footer h6, #Footer h6 a, #Footer h6 a:hover {
 	color: #ffffff;
@@ -2082,7 +2082,7 @@ h6 {
 #Top_bar #logo, .header-fixed #Top_bar #logo, .header-plain #Top_bar #logo, .header-transparent #Top_bar #logo {
 	height: 60px;
 	line-height: 60px;
-	padding: 15px 0;
+	padding: 13px 0;
 }
 .logo-overflow #Top_bar:not(.is-sticky) .logo {
 	height: 90px;
@@ -2192,7 +2192,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 @media only screen and (max-width: 767px) {
 	.mobile-header-mini #Top_bar .container {
 		width: 100%!important;
-		height: 90px !important;
+		height: 115px !important;
 	}
 	.section_wrapper, .container, .four.columns .widget-area {
 		width: calc(100% - 67px)!important;
@@ -2212,7 +2212,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 		padding-bottom: 20px;
 	}
 	#Top_bar .top_bar_left {
-		margin-top: -14px;
+		margin-top: -21px;
 		margin-bottom: 7px;
 	}
 }
@@ -2421,7 +2421,7 @@ p.flv_align_right, div.flv_align_right {
 	}
 	#Top_bar #logo img.logo-mobile {
 		display: inline-block;
-		max-height: 65px !important;
+		max-height: 115px !important;
 	}
 	.logo-overflow #Top_bar .logo {
 		height: auto!important

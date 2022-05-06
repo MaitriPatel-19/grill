@@ -771,19 +771,19 @@ a:hover.tp-button.lightgrey {
 	display: inline-block;
 	text-decoration: none !important;
 	width: 1em;
-	margin-right: .2em;
+	margin-right: 10px;
 	text-align: center;
 	/* opacity: .8; */
 	/* For safety - reset parent styles, that can break glyph codes*/
 	font-variant: normal;
 	text-transform: none;
 	/* fix buttons height, for twitter bootstrap */
-	line-height: 1em;
+	line-height: 0.5em;
 	/* Animation center compensation - margins should be symmetric */
 	/* remove if not needed */
 	margin-left: .2em;
 	margin-top: 1em;
-	/* color: #FF8C00; */
+	/* color: #28b4a9; */
 	/* you can be more comfortable with increased icons size */
 	/* font-size: 120%; */
 	/* Uncomment for 3D effect */
@@ -16031,7 +16031,8 @@ body.mobile-side-slide {
 #Side_slide #menu {
 	display: block!important;
 	margin-bottom: 20px;
-	max-height: none!important
+	max-height: none!important;
+	margin-top: 40px;
 }
 #Side_slide #menu ul {
 	width: 100%!important;
